@@ -1,5 +1,5 @@
 {
-    "name": "abdul/role-permission",
+    "name": "abdul/laravel-role-permission",
     "description": "Laravel routes permission configurable from backend",
     "keywords": ["laravel", "roles", "user groups", "dynamic roles", "dynamic permissions"],
     "type": "Laravel-Package",
