@@ -1,0 +1,28 @@
+{
+    "name": "abdul/role-permission",
+    "description": "Laravel routes permission configurable from backend",
+    "keywords": ["laravel", "roles", "user groups", "dynamic roles", "dynamic permissions"],
+    "type": "Laravel-Package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul Wahhab Khan",
+            "email": "abdulwahhabkhan@hotmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Abdul\\RolePermission\\RolePermissionServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Abdul\\RolePermission\\": "src/"
+        }
+    }
+}
