@@ -5,6 +5,12 @@ This package basic idea is based on [(amiryousefi/laravel-permission)](https://g
 
 ## Why we need a Laravel permission package
 In many projects, we need to implement a role-based permissions management system for our clients. This will make the development and controlling the access management easy for web projects built on Laravel.
+### How add permissions via admin panel
+
+After installation if you visit the route
+[Roles From](http://127.0.0.1:8000/config/role/create) All routes belongs to `auth.role` middleware will appear, you can add to role according to your application needs
+
+![role form](role-form.jpg?raw=true)
 
 ## How to use
 The idea is to use this package as easy and as flexible as possible.
@@ -79,14 +85,6 @@ Don't forget to import the `Role` model in your seeder.
 ```php
 use Abdul\RolePermission\Models\Role;
 ```
-### How add permissions via admin panel
-
-After installation if you visit the route
-[Roles From](http://127.0.0.1:8000/config/role/create) All routes belongs to `auth.role` middleware will appear, you can add to role according to your application needs
-
-![role form](role-form.jpg?raw=true)
-
-
 
 ### How to clear permissions
 To clear registered permissions you can run this command:
