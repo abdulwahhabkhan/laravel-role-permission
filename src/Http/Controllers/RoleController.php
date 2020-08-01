@@ -117,6 +117,7 @@ class RoleController extends Controller
         $role->name = $request->get('name');
         $role->description = $request->get('description');
         $role->save();
+        $role->clearCache($role->id);
         $permissions = $request->get('permissions', []);
         $role->permissions()->detach();
         foreach ($permissions as $link){
