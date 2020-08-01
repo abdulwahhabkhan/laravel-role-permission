@@ -1,4 +1,8 @@
 # Laravel Role Permission
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Total Downloads][ico-downloads]][link-downloads]
+
 An easy and flexible Laravel roles and permissions management for admin.
 
 This package basic idea is based on [(amiryousefi/laravel-permission)](https://github.com/amiryousefi/laravel-permission) module.
