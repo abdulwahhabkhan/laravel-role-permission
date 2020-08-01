@@ -1,4 +1,7 @@
 # Laravel Role Permission
+![Packagist Version](https://img.shields.io/packagist/v/abdul/laravel-role-permission)
+![Packagist License](https://img.shields.io/packagist/l/abdul/laravel-role-permission)
+![Packagist Downloads](https://img.shields.io/packagist/dt/abdul/laravel-role-permission)
 
 An easy and flexible Laravel roles and permissions management for admin.
 
