@@ -65,6 +65,9 @@ class PermissionsGenerator extends Command
             $module = $module ?? 'Modules';
             $section = str_replace(['/'], '', $section);
             $this->info($action."---".$module."---".$name."---".$section."--".$middlewere);
+            if(!$name)
+                continue;
+            
             $path = Permission::firstOrCreate(['action' =>$action, 'name' =>$name, 'module' =>$module, 'section' =>$section]);
             if(key_exists('role', $route->action)){
                 $role = $route->action['role'];
