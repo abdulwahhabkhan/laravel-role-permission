@@ -85,6 +85,6 @@ class PermissionsGenerator extends Command
     public function getMiddleware($route)
     {
         $middlewares = $route->getAction('middleware');
-        return in_array('auth', $middlewares);
+        return in_array('auth.role', $middlewares);
     }
 }
