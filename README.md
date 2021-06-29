@@ -28,7 +28,7 @@ Although the `laravel-role-permission` package does most of the work, you could 
 ### Installation
 Start with installing the package through the composer. Run this command in your terminal:
 ```
-$ composer require abdulwahhabkhan/laravel-role-permission
+$ composer require abdul/laravel-role-permission
 ```
 
 After that, you need to run the migration files:
